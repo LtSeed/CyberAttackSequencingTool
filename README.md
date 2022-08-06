@@ -2,7 +2,7 @@
 ### **Description**
 Network attack records are often complex and redundant, and a large number of attacks from the same IP take up a lot of space in the records, which can actually be replaced by just one integrated piece of information.
 
-CyberAttackSequencingTool is used to organize this data. You can choose a category, and the program will automatically sort the records according to that category. You can also choose to collapse the information of the same category into one, and you can choose to Repeated parts are omitted.
+CyberAttackSequencingTool is used to organize this data. You can choose a category, and the program will automatically sort the records according to that category. You can also choose to fold the information of the same category into one, and you can choose to omit the repeated parts.
 ### **Usage：**
 First, please make sure that your computer has a running environment of Java 17 or above.
 
