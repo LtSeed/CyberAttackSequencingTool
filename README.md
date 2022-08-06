@@ -16,7 +16,7 @@ As this is a command line interface program, please type the command exactly in 
 
 Where xxx.jar is the file name, which you downloaded just now.
 
-You may need to enter the absolute address of the Jar file（replacing xxx.jar） and enclose it in double quotes, this is especially useful when the software prompts you that the Excel file cannot be found.
+You may need to enter the absolute address of the Jar file（replacing xxx.jar） and enclose it in double quotes, this is especially useful when the program prompts you that the Excel file cannot be found.
 
 ### **Options:**
 `	-p <path>  `       Path to the excel file.
