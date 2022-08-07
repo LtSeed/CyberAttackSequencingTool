@@ -16,6 +16,9 @@ public class Main {
     static boolean fold;
     static boolean omit;
     public static void main(String[] args) {
+
+        Date timer = new Date();
+
         Options options = new Options();
         options.addOption("p","path",true,"-p <path> Path to the excel file.");
         options.addOption("s","sheet",true,"-s <sheet name> Name of the excel sheet.");
@@ -110,6 +113,13 @@ public class Main {
                 f = !f;
             }
         }
+        try {
+            workbook.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.out.println("Error occurred when saving the excel file.");
+        }
+        System.out.println("Done.("+(new Date().getTime() - timer.getTime())+"ms)");
     }
 
     private static String printList(List<String> strings) {
