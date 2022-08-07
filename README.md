@@ -4,7 +4,7 @@ Network attack records are often complex and redundant, and a large number of at
 
 CyberAttackSequencingTool is used to organize this data. You can choose a category, and the program will automatically sort the records according to that category. You can also choose to fold the information of the same category into one, and you can choose to omit the repeated parts.
 ### **Usage：**
-First, please make sure that your computer has a running environment of Java 17 or above.
+First, please make sure that your computer has a runtime environment of Java 17 or above.
 
 You may be able to find a suitable download on [Java Downloads | Oracle](https://www.oracle.com/java/technologies/downloads/#jdk18-linux).
 
